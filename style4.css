@@ -1,0 +1,63 @@
+body {
+  background-color: #f8f9fa;
+  margin: 10px auto;
+  padding: 2%;
+  border: solid grey;
+  border-width: thin;
+  display: block;
+  box-sizing: border-box;
+  max-width: 90%;
+}
+
+h1,
+h2 {
+  color: darkblue;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: 'Sacramento', cursive;
+}
+
+span {
+  font-weight: bold;
+}
+.parameters {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 68%;
+  margin: 65px;
+  font-size: 18px;
+  font-family: Google Sans, arial, sans-serif;
+}
+.graphs {
+  margin: 5% 0 10px 0;
+  max-width: 100%;
+  width: 1700px;
+}
+.forecast {
+  text-align: center;
+  padding: 5%;
+  font-size: 20px;
+}
+
+.mon,
+.tue,
+.wed,
+.thu,
+.fri,
+.sat,
+.sun {
+  border: solid 1px darkblue;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.humidity-icon,
+.precip-icon,
+.wind-icon,
+.down-icon,
+.high-icon,
+.up-icon {
+  color: darkblue;
+  width: 25px;
+}

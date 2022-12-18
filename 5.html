@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style4.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/48ee7e9874.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
+
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="city-form">
+            <input type="city" placeholder="Enter the city here" autofocus="off" id="your-city" />
+            <input type="submit" value="Search" />
+        </form>
+        <div class="col-3">
+            <button class="btn btn-success w100" id="current-location-btn">
+                Current location
+            </button>
+        </div>
+
+        <h1 id="city"></h1>
+
+        <img src="pics/sunny.png" alt="sunny" />
+
+        <h2>Saturday 04:29</h2>
+        <span id="description">Partly cloudy</span>
+        <span class="temperature" id="temperature"></span>
+
+
+        <img class="graphs" src="pics/weather.png" alt="weather today" />
+
+        <br />
+        <div class="parameters">
+            <ul><i class="fa-solid fa-droplet humidity-icon"></i>Humidity <span id="humidity">78</span>%</ul>
+            <ul><i class="fa-solid fa-cloud-sun-rain precip-icon"></i>Precipitation <span id="precipation">4</span>%
+            </ul>
+            <ul><i class="fa-solid fa-wind wind-icon"></i>Wind <span id="wind">8</span>km/h</ul>
+        </div>
+    </div>
+
+    <script src="5final.js"></script>
+    </div>
+</body>
+
+</html>
